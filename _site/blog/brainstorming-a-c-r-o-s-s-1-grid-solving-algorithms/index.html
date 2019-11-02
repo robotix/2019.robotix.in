@@ -1,0 +1,115 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"> <meta name="description" content="Technology Robotix Society is an official society under the Technology Students' Gymkhana IIT Kharagpur."> <meta name="keywords" content="robotix, robotics, iit, kgp, team, events, society, technology, tutorial"> <meta name="google-site-verification" content="ZR618hQWwV_OwtWa033492kzvBaQYxBc1ZauYc5oO5A" /> <!-- Social: Twitter --> <meta name="twitter:card" content="summary"> <meta name="twitter:site" content="@robotixiitkgp"> <meta name="twitter:title" content="Brainstorming A.C.R.O.S.S 1 - Grid Solving Algorithms"> <meta name="twitter:description" content="Technology Robotix Society is an official society under the Technology Students' Gymkhana IIT Kharagpur."> <meta name="twitter:image:src" content="/img/favicons/favicon-196x196.png"> <!-- Social: Facebook / Open Graph --> <meta property="og:title" content="Brainstorming A.C.R.O.S.S 1 - Grid Solving Algorithms" /> <meta property="og:site_name" content="Technology Robotix Society, IIT Kharagpur" /> <meta property="og:type" content="website" /> <meta property="og:image" content="/img/favicons/favicon-196x196.png" /> <meta property="og:description" content="Technology Robotix Society is an official society under the Technology Students' Gymkhana IIT Kharagpur." /> <!-- Social: Google+ --> <link href="https://plus.google.com/102868621563384739622" rel="publisher"> <title>Brainstorming A.C.R.O.S.S 1 - Grid Solving Algorithms &bull; Technology Robotix Society, IIT Kharagpur</title> <link rel="shortcut icon" href="/img/favicons/favicon.ico"> <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png"> <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png"> <link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png"> <link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png"> <link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png"> <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png"> <link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png"> <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png"> <link rel="icon" type="image/png" href="/img/favicons/favicon-196x196.png"> <link rel="icon" type="image/png" href="/img/favicons/favicon-160x160.png"> <link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png"> <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png"> <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png"> <meta name="msapplication-TileColor" content="#2b5797"> <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png"> <meta name="msapplication-config" content="/img/favicons/browserconfig.xml"> <meta name="theme-color" content="#2b5797"> <link href="/css/main.css" rel="stylesheet"> <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --> <!-- WARNING: Respond.js doesn't work if you view the page via file:// --> <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]--> </head> <body> <div id="st-container" class="st-container"> <div class="st-pusher"> <div class="st-content"> <!-- Begin Top Section --> <section id="top-section" class="top-section image-section " style=""> <div class="overlay gradient-overlay"></div> <header id="top-header" class="top-header"> <div class="overlay white-solid"></div> <svg id="menu-trigger" class="menu-trigger icn icon-menu visible-xs" viewBox="0 0 32 32"> <use xlink:href="/img/sprites/sprites.min.svg#icon-menu"></use> </svg> <a href="/" id="logo-header" class="logo-header"> <div class="logo"></div> </a> <nav class="st-menu st-effect" id="menu"> <div class="logo-navbar logo visible-xs"></div> <ul> <li> <a class="" href=" https://makerspace.robotix.in/" target="_blank">Makerspace</a> </li> <li> <a class="" href="/FAQs/" >FAQs</a> </li> <li> <a class="" href="/workshops/" >Workshops</a> </li> <li> <a class="" href="/event/" >Events</a> </li> <li> <a class="" href="/blog/" >Blog</a> </li> <li> <a class="" href="/tutorial" >Tutorials</a> </li> <li> <a class="" href="/team/" >Team</a> </li> <li> <a class="" href="/about-us/" >About Us</a> </li> </ul> <ul id="bottom-navlinks" class="bottom-navlinks visible-xs"> <li> <a href="https://contact.robotix.in" target="_blank">Contact Us</a> </li> </ul> </nav> </header> <div class="content-wrapper"> <div class="jumbotron text-left"> <div class="animated hiding" data-animation="fadeInLeft" data-delay="500"> <h1>Brainstorming A.C.R.O.S.S 1 - Grid Solving Algorithms</h1> </div> </div> </div> </section> <!-- End Top Section --> <!-- Begin Post--> <section id="post-section" class="post-section"> <div class="content-wrapper text-left"> <div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1"> <div class="col-lg-8 col-md-10 col-xs-12"> <article class="row post"> <div class="post-body"><p>Welcome to Brainstorming ACROSS. This is a series of articles that will cover various aspects of the problem statement of the autonomous event <a href="http://robotix.in/across">ACROSS</a> and their possible solutions. This particular article will cover the <em>Recursive Backtracker</em> algorithm that can be used by a bot to navigate on an 8x8 grid containing obstacles at unknown locations. Note that the article does not cover on how to implement this algorithm in an autonomous robot. That will be covered in future articles. At the end you can also find the link to a software for testing grid solving algorithms. If you are a lazy reader, download the offline pdf here <a href="http://robotix.in/img/blog/2012/12/Brainstorming-ACROSS1.pdf">Brainstorming ACROSS</a> before you begin.</p> <h1 id="objective"><strong>Objective</strong></h1> <p>The objective is to go from point on the 8x8 to any other point. As an additional constraint, we consider that the arena in unknown to the bot. In other words, when the bot starts moving, it has no knowledge of the location of obstacles on the grid. It knows only its starting position and the required ending position.</p> <h1 id="location"><strong>Location</strong></h1> <p><a href="http://robotix.in/img/blog/2012/12/image001.png"><img src="http://robotix.in/img/blog/2012/12/image001.png" alt="" /></a></p> <p>Figure 1 The 8x8 ACROSS Grid</p> <p>Let the location of bot at any point be denoted by the 2D coordinate system that is by X and Y coordinates. In the arena shown below, each square denotes one such point. The <em>point (0, 0)</em> is denoted by the <em>top leftmost square</em>.</p> <p><a href="http://robotix.in/img/blog/2012/12/image003.png"><img src="http://robotix.in/img/blog/2012/12/image003.png" alt="" /></a></p> <p>Figure 2 The ACROSS Round 1 Arena</p> <ul> <li>Grey denotes an obstacle in this case raised platforms</li> <li>Orange denotes the final location in this case a gap between two platforms (3, 3)</li> <li>Dark Blue denotes the initial location (0, 7)</li> <li>Light Blue lines will denote the path taken by the robot</li> </ul> <h1 id="movements"><strong>Movements</strong></h1> <p>From any point on the grid, the bot can move in four directions:</p> <ul> <li>North - (x, y) to (x, y-1)</li> <li>East - (x, y) to (x+1, y)</li> <li>West - (x, y) to (x-1, y)</li> <li>South - (x, y) to (x, y+1)</li> </ul> <h1 id="algorithm"><strong>Algorithm</strong></h1> <p>At each coordinate of the grid, the basic roles of the bot remain the same. As a result we need only one basic function to navigate which can repeatedly called. The roles can be divided into two parts:</p> <ul> <li><em>Base Cases:</em> These indicate whether the current location is valid that is whether it is possible to move to it or not. They also indicate if the bot has reached the destination thereby indicating it is time to stop.</li> <li><em>Recursive Parts:</em> These scan the four positions in the four directions around the current position to check if any of them satisfy the base cases. In programming terms this involves placing a call to the same function but with a different set of arguments, which in this case correspond to a position. Hence this part is termed as recursive and it is responsible for the robot advancing through the maze.</li> </ul> <h1 id="recursive-parts"><strong>Recursive Parts</strong></h1> <p>Let’s start by assuming there is already some algorithm that finds a path from some point in a maze to the goal and call it <em>RecurPath (x, y)</em>.</p> <p><a href="http://robotix.in/img/blog/2012/12/image006.png"><img src="http://robotix.in/img/blog/2012/12/image006.png" alt="" /></a>Let us assume that the robot managed to reach a point (0, 4) using this function. Now it is required to check all the four directions to find the path ahead. Thus we place four calls:</p> <ul> <li><em>RecurPath (0, 3) - North</em></li> <li><em>RecurPath (1, 4) - East</em></li> <li><em>RecurPath (0, 5) – South</em></li> <li><strong>RecurPath (-1, 3) - West</strong></li> </ul> <p>Note that these checks can be performed in any order. Now since going west will mean going out of the grid, that function call should return something to indicate the same. While rest of the directions are valid and the function should indicate the same.</p> <p>Generalizing this, we can call <em>RecurPath ()</em> recursively to move from any location in the maze to adjacent locations. In this way, we move through the maze.</p> <h1 id="base-cases"><strong>Base Cases</strong></h1> <p>It’s not enough to recursively advance through the maze. We also need to determine when to stop.</p> <p>One such <em>base case</em> is to stop when it <em>reaches the goal</em>.</p> <p>The other base cases have to do with moving to invalid positions. For example, we have mentioned how to search North of the current position, but disregarded whether that North position is legal. In order words, we must ask:</p> <ul> <li><em>Is the position in the maze</em> (…or did we just go outside its bounds)?</li> <li><em>Is the position open</em> (…or is it blocked with an obstacle)?</li> </ul> <h1 id="pseudo-code"><strong>Pseudo-code</strong></h1> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>RecurPath(x,y) {
+
+Move robot to (x, y)
+
+if (x,y outside maze) return false
+
+if (x,y is goal) return true
+
+if (x,y not open or is marked visited) return false
+
+mark x,y as visited
+
+if (RecurPath(North of x,y) == true) return true
+
+if (RecurPath(East of x,y) == true) return true
+if (RecurPath(South of x,y) == true) return true
+if (RecurPath(West of x,y) == true) return true
+
+Move robot to (x, y)
+
+return false
+
+}
+</code></pre></div></div> <p>Marking x,y as visited is necessary to prevent the bot from going around in circles. For the explanation to the last call to _Move robot to (x,y) _see the Dead Ends section of this post.</p> <p>To use to find and mark a path from the start to the goal with our given representation of mazes, we just need to:</p> <ol> <li>Locate the start position (call it <em>startx</em>, <em>starty</em>).</li> <li>Call <em>RecurPath(startx, starty)</em></li> <li>Re-mark the start position.</li> </ol> <p><a href="http://robotix.in/img/blog/2012/12/image008.png"><img src="http://robotix.in/img/blog/2012/12/image008.png" alt="" /></a></p> <p>Figure 4 Sample Run</p> <p>You can verify that each colored square that is part of the final path satisfies one of the ‘if statements’ of the Pseudo-code. As an example lets see what happens when the bot is at (0, 0):</p> <p>First lets go one step backward to position (0, 1). At this position:</p> <p><a href="http://robotix.in/img/blog/2012/12/image010.png"><img src="http://robotix.in/img/blog/2012/12/image010.png" alt="" /></a></p> <p>Figure 5 At position (0, 1)</p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>RecurPath(0,1) {
+
+Move robot to (x, y)
+
+if (x,y outside maze) return false
+
+if (x,y is goal) return true
+
+if (x,y not open or is marked visited) return false
+
+mark x,y as visited
+
+if (RecurPath(North of x,y) == true) return true  [Highlight 1]
+
+if (RecurPath(East of x,y) == true) return true
+if (RecurPath(South of x,y) == true) return true
+if (RecurPath(West of x,y) == true) return true
+
+Move robot to (x, y)
+
+return false
+}
+</code></pre></div></div> <p>Since none of the base cases are satisfied, code reaches the highlighted step, placing a call to _RecurPath (0, 0). _Note that the call has not yet finished executing.</p> <p><a href="http://robotix.in/img/blog/2012/12/image012.png"><img src="http://robotix.in/img/blog/2012/12/image012.png" alt="" /></a></p> <p>Figure 6 At position (0, 0)</p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>RecurPath(0,0) {
+
+Move robot to (x, y)
+
+if (x,y outside maze) return false
+
+if (x,y is goal) return true
+
+if (x,y not open or is marked visited) return false
+
+mark x,y as visited
+
+if (RecurPath(North of x,y) == true)  return true [Highlight RED]
+
+if (RecurPath(East of x,y) == true) return true [Highlight GREEN]
+if (RecurPath(South of x,y) == true) return true
+if (RecurPath(West of x,y) == true) return true
+
+Move robot to (x, y)
+
+return false
+
+}
+</code></pre></div></div> <p>Thus the robot moves to (0, 0). Reaches the code highlighted in Red, placing a call to <em>RecurPath(0, -1). _This will return false since the point is outside the maze. So the code proceeds to the next step, calling _RecurPath(1, 1). _Thus the robot moves to (1, 1) and in this manner the sequence keeps going on. The sequence will end only when the robot reaches the goal, that function call will then return true and subsequently all the calls before it</em> _will return true as well. Thus the output of our initial call to _RecurPath(startx, starty) _will be true.</p> <h1 id="dead-ends-and-backtracking"><strong>Dead Ends and Backtracking</strong></h1> <p>So what happens if the bot takes a wrong turn, a path, which leads to a dead end, or a path, which we know wont reach, the end point? Let us consider this run again:</p> <p><a href="http://robotix.in/img/blog/2012/12/image014.png"><img src="http://robotix.in/img/blog/2012/12/image014.png" alt="" /></a></p> <p>Figure 7 At position (5,4)</p> <p>Now since the North is blocked so the bot turns to East calling <em>RecurPath(6,4):</em></p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>RecurPath(6,4) {
+
+Move robot to (x, y)
+
+if (x,y outside maze) return false
+
+if (x,y is goal) return true
+
+if (x,y not open or is marked visited) return false
+
+mark x,y as visited
+
+if (RecurPath(North of x,y) == true)  return true [Highlight RED]
+
+if (RecurPath(East of x,y) == true) return true [Highlight RED]
+if (RecurPath(South of x,y) == true) return true [Highlight RED]
+if (RecurPath(West of x,y) == true) return true [Highlight RED]
+
+Move robot to (x, y)
+
+return false
+
+}
+</code></pre></div></div> <p>Since all directions are either marked visited or are blocked,_ Move robot to (6,4)._ Since the bot is already there the call ends, returning false. Now the code goes back to the previous call <em>RecurPath(5,4)</em> with the bot still at (6,4)</p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>RecurPath(5,4) {
+
+Move robot to (x, y)
+
+if (x,y outside maze) return false
+
+if (x,y is goal) return true
+
+if (x,y not open or is marked visited) return false
+
+mark x,y as visited
+
+if (RecurPath(North of x,y) == true)  return true   //Code reaches here
+
+if (RecurPath(East of x,y) == true) return true [Highlight RED]
+if (RecurPath(South of x,y) == true) return true [Highlight RED]
+if (RecurPath(West of x,y) == true) return true [Highlight RED]
+
+Move robot to (x, y)
+
+return false
+
+}
+</code></pre></div></div> <p>Again the code reaches Move robot (5,4) moving the bot from (6,4). In this way the bot backtracks on reaching a dead end.</p> <h1 id="resources"><strong>Resources</strong></h1> <p>Software that demonstrates the above algorithm can be found here <a href="http://robotix.in/img/blog/2012/12/MinotaurPathfinder.zip">MinotaurPathfinder</a> Extract the zip file. You can find more information on how to use in the Readme file contained within. For a source code of the software, written in C# (using Visual Studio 2012), click <a href="http://robotix.in/img/blog/2012/12/MinotaurPathfinder_Source.zip">MinotaurPathfinder_Source</a>. Note that the software only marks the final valid path. The robot might have to move to additional squares and backtracked on finding a dead end.</p> <p>This tutorial has been compiled using the following resources:</p> <p><a href="http://www.cs.bu.edu/teaching/alg/maze/">http://www.cs.bu.edu/teaching/alg/maze/</a></p> <p><a href="http://www.astrolog.org/labyrnth/algrithm.htm">http://www.astrolog.org/labyrnth/algrithm.htm</a></p> <p><a href="http://www.dotnetperls.com/pathfinding">http://www.dotnetperls.com/pathfinding</a></p> <h1 id="looking-ahead"><strong>Looking Ahead</strong></h1> <p>In future articles we will look at more algorithms, ways to a map a grid, how to implement the recursive backtracker in a bot and much more. Stay tuned for more. You can also try to optimize the algorithm according to the A.C.R.O.S.S arena. One way can be by prioritizing which direction is checked first at each square. Remember that a juicy cash prize is waiting for the bot with the Best Algorithm in ACROSS in addition to the top prizes. May the best algorithm win !!</p> <p>For feedback, suggestions and doubts send a mail to aditya@robotix.in</p> </div> <ul class="pager col-lg-12"> <li class="previous btn-lg"><a href="/blog/mechanical-design-submission-17/" title="Mechanical Design Submission-17"><span aria-hidden="true">&larr;</span> Mechanical D...</a></li> <li class="next btn-lg"><a href="/blog/mechanical-design-submission-16/" title="Mechanical Design Submission-16">Mechanical D... <span aria-hidden="true">&rarr;</span></a></li> </ul> </article> </div> </div> </div> </section> <!-- End Post --> <!-- Begin Footer --> <footer id="footer" class="footer"> <div class="row"> <div class="logo logo-footer pull-right"></div> </div> <div class="row"> <div class="col-md-4 col-xs-6"> <h5>Links</h5> <ul> <li><a href="https://drive.google.com/open?id=1jNJHFE1QjGOHFwhhzn6e774odGv-6eFQ" target="_blank">Robotix App</a></li> <li><a href="https://robotix.in/event/" target="_blank">Events</a></li> <li><a href="https://robotix.in/tutorial/" target="_blank">Tutorials</a></li> </ul> </div> <div class="col-md-4 col-xs-6"> <h5>Contacts</h5> <ul> <li><a href="https://contact.robotix.in" target="_blank">Contact Us</a></li> </ul> </div> <div class="col-md-4 col-xs-6"> <h5>Archives</h5> <ul> <li><a href="https://2018.robotix.in/" target="_blank">Robotix 2018</a></li> <li><a href="https://2017.robotix.in/" target="_blank">Robotix 2017</a></li> <li><a href="https://2016.robotix.in/" target="_blank">Robotix 2016</a></li> </ul> </div> </div> <div class="row"> <div class="col-md-6 col-xs-12"> <ul class="social-links"> <li> <a href="https://plus.google.com/102868621563384739622/" target="_blank"> <svg class="icn icon-google-plus" viewBox="0 0 30 32"> <use xlink:href="/img/sprites/sprites.min.svg#icon-google-plus"></use> </svg> </a> </li> <li> <a href="https://twitter.com/RobotixIITKgp" target="_blank"> <svg class="icn icon-twitter" viewBox="0 0 30 32"> <use xlink:href="/img/sprites/sprites.min.svg#icon-twitter"></use> </svg> </a> </li> <li> <a href="https://facebook.com/robotixiitkgp" target="_blank"> <svg class="icn icon-facebook" viewBox="0 0 30 32"> <use xlink:href="/img/sprites/sprites.min.svg#icon-facebook"></use> </svg> </a> </li> <li> <a href="https://www.youtube.com/robotixiitkgp" target="_blank"> <svg class="icn icon-youtube" viewBox="0 0 30 32"> <use xlink:href="/img/sprites/sprites.min.svg#icon-youtube"></use> </svg> </a> </li> <li> <a href="/feed.xml" target="_blank"> <svg class="icn icon-rss" viewBox="0 0 30 32"> <use xlink:href="/img/sprites/sprites.min.svg#icon-rss"></use> </svg> </a> </li> </ul> </div> </div> <div class="row"> <!-- Please don't delete this line--> <div class="col-md-6"> <p class="copyright"> &copy; 2018 Technology Robotix Society, IIT Kharagpur </p> </div> </div> </footer> <!-- End Footer --> </div> </div> </div> <!-- Begin Floating Action button--> <ul class="fab"> <li> <input type="text" class="search input-sm form-control" placeholder="Search the site..."> <button class="btn btn-danger waves-circle waves-effect waves-light waves-float rotate"> <h4 class="fab-text media-middle"><b>+</b></h4> </button> </li> </ul> <script> window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js"><\/script>') </script> <script> document.write('<script src="/js/bootstrap.min.js"><\/script>') </script> <script src="/js/default.min.js"></script> <script>Waves.displayEffect();</script> <script src="/js/scripts.min.js"></script> <script> (function(){ var handle = '@robotixiitkgp'; var a = document.createElement('script'); var m = document.getElementsByTagName('script')[0]; a.async = 1; a.src = 'https://nectar.ninja/api/v1/' + handle.slice(1); m.parentNode.insertBefore(a, m); })(); </script> <script> (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){ (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t); e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e); })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st'); _st('install','a_iioDrTs6zXmqH8x5Yr','2.0.0'); </script> <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-83617238-1', 'auto'); ga('send', 'pageview'); </script> </body> </html>

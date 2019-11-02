@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technology Robotix Society, IIT Kharagpur</title>
+    <description>Technology Robotix Society is an official society under the Technology Students' Gymkhana IIT Kharagpur.</description>
+    <link>/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Line Follower Hackathon 2019</title>
+        <description>&lt;p&gt;The morning of 29th September, 2019 saw groups of robotics enthusiasts streaming into V2, all eager to participate in the line following hackathon, and make their first foray into the realm of autonomous robotics. Armed with knowledge fresh from the KRAIG 201 session held the day before the 30- odd participating groups attempted to tackle the given problem statement: To create an autonomous robot that would successfully follow a black line on a white surface, from one end of the arena to the other.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2019/linefollower/line1.jpg&quot; alt=&quot;1&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The line following hackathon is hosted by the technology robotix society every year, after the KRAIG 201 workshop on autonomous robotics, to give freshers an opportunity to try out their hand at building their own robots.&lt;/p&gt;
+
+&lt;p&gt;The excitement began a day before the event. After the conclusion of KRAIG 201, participants rushed to buy components, form groups and try and make sense of all the knowledge they took in. Those who had taken part in robosoccer were busy taking apart their old bots and salvaging components, while others swarmed Choudhury’s and Bots ‘n Chips to get their stuff.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2019/linefollower/line2.jpg&quot; alt=&quot;2&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On the day of the event, V2 was all prepped up for hosting the hackathon. On the stage was an arena where participants could test out the bots, which essentially consisted of two IR sensors, motors, and two IC chips: a motor driver and a voltage regulator. Batteries and other basic materials were available, and the sub heads were all ready to assist the participants. The first half an hour of the event was smooth sailing, as components were put together, circuits were made, and bots were slowly taking shape. The hall was scattered with groups of 3 and 4, working earnestly on their respective bots. It was only after the basic circuits were made that the real excitement started. Seemingly perfect circuits were malfunctioning, motors were running in the wrong directions, the sensors weren’t picking up the right signals, or in other words the bots weren’t working. Then all hell broke loose. People were running around for components, solder irons, and other tools, frantically trying to get their bots running. The atmosphere was one of equal parts of panic, excitement, frustration and fun.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2019/linefollower/line3.jpg&quot; alt=&quot;3&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This was when the sub heads stepped in. They went from group to group, analysing and correcting circuits, debugging bots and restoring a sense of normalcy. Soon after, the first set of teams gathered up courage to approach the arena to test out their bots. Before running, the bot’s IR sensors had to be adjusted to the ambient light conditions, which too was a hurdle to overcome.&lt;/p&gt;
+
+&lt;p&gt;After an hour or so of debugging and testing, the arena saw the first successful run  by the team: “The Robot Master”.  A cheer went up, and the first years were thrilled by the sight of a robot autonomously navigating the course. The excitement was palpable, and the teams renewed their efforts, motivated now, by the prospect of success. Thereafter, more and more teams got their circuits right, and had the satisfaction of watching their bots follow the line successfully.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2019/linefollower/line4.jpg&quot; alt=&quot;4&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In hindsight, the line following hackathon was perhaps the most exciting and informative experience the freshers had at KGP. It sure had its ups and downs- the frantic rush to procure forgotten components, the frustration of debugging your bot over and over, only to discover a new error, the tedious cycle of testing and correcting, and finally the thrill of watching your robot follow the line from one end to the other….. they were all real experiences that contributed to a fun and satisfying learning experience. There were teams that got their bots up and running on the first try, and there were teams that spent hours on their bots, but what mattered the most at the end of the day, was that every single one of the participating teams got to taste the ultimate satisfaction of watching one’s own creation successfully complete the assigned task.&lt;/p&gt;
+
+&lt;p&gt;This was definitely an experience that left everyone thirsting for more, and was made so due to the efforts put in by the Technology Robotix Society.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 29 Sep 2019 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/linefollower/</link>
+        <guid isPermaLink="true">/blog/linefollower/</guid>
+      </item>
+    
+      <item>
+        <title>Robosoccer 2019</title>
+        <description>&lt;p&gt;‘MADNESS-It’s like gravity. All it takes is a little push’. Madness is that what took place when bots combined with soccer and passion.Fully packed stadiums and chilled emotions were all compressed into a small room of Vikramshila on that day.Bots clashing for a ball, rolling and tripping,bots getting damaged on the verge of winning,bots getting pushed out of the arena.These were the things that happened in the Robosoccer event organised by the Technology Robotix Society on 1st September,2019.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2019/robosoccer/robosoccer1.jpg&quot; alt=&quot;1&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The freshers were given a great opportunity to enter into the world of robotics by this event. It’s the first major technical event for freshers. They were required to make manually controlled bots which had to compete in a small arena for a golf ball. One had to use DPDT or Relay circuit to build their bots. Both of these circuits were taught to the freshers during KRAIG101 held earlier and they were taught to build their bots during hands on session few days before the event. There were certain rules to be followed. Each team had to comprise of three members. Only one was allowed to control the bot and one other had to take care of the wires. There were restrictions on the design of chassis. One could use a maximum of four motors and include a kicker and flipper within the given dimensions. Every match was three minutes long with halves of 1.5 minutes each. Matches were first played on a league basis and knock out basis in further rounds.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2019/robosoccer/robosoccer2.jpg&quot; alt=&quot;2&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One could experience all sorts of sights during the event. Some matches were won by a margin of 15 goals while some were so close that they had to go to extra time. Crowd cheering for every great move or great save, teammates giving instructions to each other, small bots using all sorts of strategies to compensate for their smaller size; all presented a great experience for every one. The participants advancing to next rounds showed that only the ones with perfect combination of hand-eye coordination and strategy prevailed. Finally after cut throat competition,the winner was Team RAPTORS and the runner ups were Team CHITTI and Team DESTROYER. They were given exciting gifts and cash prizes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2019/robosoccer/robosoccer3.jpg&quot; alt=&quot;3&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the key features of this year’s Robosoccer competition was that it was live-telecasted on the official Facebook page of the Technology Robotix Society. The participants were so eager to show off their bot and their skills that a lot of them told their parents to switch on the live video to show them how they’re playing and to get a feel of how things are done here at IIT Kharagpur. The matches began getting so interesting and unpredictable towards the end and the participants’ tempo was so high that even the Sub Heads and the Heads of TRS who were present there started feeling nostalgic about their own Robosoccer competition which they had participated in during their fresher year.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2019/robosoccer/robosoccer4.jpg&quot; alt=&quot;4&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A lot of teams won, a lot of them lost, but what’s more important is what the participants took back home from this event. From learning the technicalities of the robot, to mastering it’s control on the arena; from making their own first bot to helping others debug their bots; from trying their best to win the competition, to cheering others to try harder; it was an overall fun and learning experience in its true sense. The event wouldn’t have been possible without the efforts of the Sub Heads and the new members of the Technology Robotix Society.&lt;/p&gt;
+
+&lt;p&gt;Cheers to them and to the participants!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Sep 2019 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/robosoccer2k19/</link>
+        <guid isPermaLink="true">/blog/robosoccer2k19/</guid>
+      </item>
+    
+      <item>
+        <title>Registrations for Robotix 2019</title>
+        <description>&lt;h4 id=&quot;registration-for-robotix-2019-are-now-open&quot;&gt;Registration for ROBOTIX 2019 are now open.&lt;/h4&gt;
+
+&lt;p&gt;For all the event details of Robotix 2019, visit: &lt;a href=&quot;https://2019.robotix.in/event/&quot;&gt;Robotix 2019 - Events&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; All Team members are required to register at the Kshitij website before team formation. One of the
+team members should act as captain and invite all other members to his team from the &lt;em&gt;Events&lt;/em&gt; section as
+explained below. The other members register in the events to join the team from their own Kshitij accounts.
+Only the captain can dismantle the entire team while individual members may leave the team anytime. The captain
+is also known as the &lt;em&gt;leader&lt;/em&gt; at some places.&lt;/p&gt;
+
+&lt;h5 id=&quot;for-registrations&quot;&gt;For Registrations:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Visit Kshitij website: &lt;a href=&quot;http://www.ktj.in&quot;&gt;http://www.ktj.in/&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Register on the website by clicking &lt;em&gt;SIGNUP&lt;/em&gt; at the bottom of the home page after entering the site.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2018/registration-2019/1.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fill in all the details.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2018/registration-2019/2.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2018/registration-2019/3.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now you will need to login to your account using the email and password.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2018/registration-2019/4.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;After logging in, click on &lt;em&gt;EVENTS&lt;/em&gt; in the menu at the top right corner.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now scroll down until you find the option &lt;em&gt;ROBOTICS&lt;/em&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2018/registration-2019/5.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Select the event among ZENITH, Autonomous Event and CRUSADE which you want to register for.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- ![](/img/blog/2018/registration-2019/9.png){:.img-responsive} --&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Locate the register option on the right. A message appears saying that you have successsfully registered for the event.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now you have to form a team. For this select the option &lt;em&gt;MYKTJ&lt;/em&gt; at the homescreen and select the event among the dropdown list.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;!-- ![](/img/blog/2018/registration-2019/7.png){:.img-responsive} --&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;After selecting the event, enter the e-mail ids of your team members.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: You can only form a team with someone who has registered in the event. Else, you will get a message saying that the email of the participant has not registered in the event.&lt;/p&gt;
+
+&lt;!-- ![](/img/blog/2018/registration-2019/8.png){:.img-responsive} --&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;After the team has been successfully registered, both the team captain and the team members will see the event with the registered team in the &lt;em&gt;MYKTJ&lt;/em&gt; section of the homescreen of their ktj accounts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For further queries, you can contact:&lt;/p&gt;
+
+&lt;h5 id=&quot;shubhika-garg&quot;&gt;Shubhika Garg&lt;/h5&gt;
+
+&lt;p&gt;Email: &lt;strong&gt;&lt;a href=&quot;mailto:shubhika.garg@robotix.in&quot;&gt;shubhika.garg@robotix.in&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ph. no: +91 7478074111&lt;/p&gt;
+</description>
+        <pubDate>Wed, 26 Dec 2018 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/registration-for-robotix-2019/</link>
+        <guid isPermaLink="true">/blog/registration-for-robotix-2019/</guid>
+      </item>
+    
+      <item>
+        <title>Robosoccer 2018</title>
+        <description>&lt;p&gt;We all have had our giggles on Neymar and his injuries this FIFA World Cup right? Kinda cliché isn’t it? Not interesting. Now what if I tell you that we’ve had robots rolling and tripping the same way as Neymar did, the last weekend. From shouting out respective hall names to blaming the team’s bot controller for making silly bot controlling mistakes in the match; from winning the matches by 16-2 to losing them by 3-4 in the last minute; from pushing the opponent’s bot out of the arena to hitting the opponent’s bot so hard that it gets broken down; it has all been a fun and learning experience after all. Yes all this happened during the Robosoccer competition organised and hosted by the Technology Robotix Society on the 26th of August 2018.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2018/robosoccer/robosoccer1.jpg&quot; alt=&quot;1&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Robosoccer competition was the first technical event exclusively held for the freshers who made their first ever bot with at most enthusiasm and huge participation. It was basically the freshers’ first milestone in the world of robotix. The problem statement of the competition was to build a manually controlled bot working on the differential drive mechanism whose aim was to play one-to-one soccer matches against the opponent on a small arena using a golf ball. The design of the chassis and the bot included basic features like two or four motor driven wheels and arms to control the ball, and innovative features like flippers, kickers, slopes and tapes. The bot was manually controlled by one or two of the team members using a wired controller. The circuitry was based on either a DPDT circuit or a relay circuit. While the DPDT circuit was easier to make but difficult to control, the relay circuit was a bit difficult to make but easier to control. The participants were given basic tutorials and hands-on on how to build their bot in the induction workshop as well as informative sessions like the KRAIG 101. The bot was supposed to score as many goals as possible and to defend the opponent as well in a three minute match. The teams were supposed to change sides after a half-time of one and a half minutes. The event was organised in teams of three, and the matches were played on league basis initially and knockout basis in the further rounds.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2018/robosoccer/robosoccer2.jpg&quot; alt=&quot;2&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There were matches where the design and control of one of the bots was so robust that the team won by a margin of more than 15 goals, while there were matches where the leading team changed sides a lot of times during the match and it was difficult to predict the winner even till the last ten seconds of the match. The way the team members and the supporters cheered for their teams, and the way the controller controlled the bot with full concentration and hand-eye coordination was an amazing experience overall. One of the most amazing things during the competition was the way small two-wheeled bots competed against large four-wheeled bots, which obviously had an edge due to the torque that four wheels provide over two wheels. No matter how robust the design of the bot was, the game slowly came down in the hands of only those teams which were perfect at controlling the bot and the ball on the arena. After cut-throat competition amongst the teams, the competition was finally won by the team with the most robust bot design and an unbelievably amazing control of the bot, Team Enigma with Ashish, Parth and Alok as it members. Team Jugaadoos and Team Mutants were declared as the 1st and 2nd runner up.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2018/robosoccer/robosoccer3.jpg&quot; alt=&quot;3&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;One of the key features of this year’s Robosoccer competition was that it was live-telecasted on the official Facebook page of the Technology Robotix Society. The participants were so eager to show off their bot and their skills that a lot of them told their parents to switch on the live video to show them how they’re playing and to get a feel of how things are done here at IIT Kharagpur. The matches began getting so interesting and unpredictable towards the end and the participants’ tempo was so high that even the Sub Heads and the Heads of TRS who were present there started feeling nostalgic about their own Robosoccer competition which they had participated in during their fresher year.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2018/robosoccer/robosoccer4.jpg&quot; alt=&quot;4&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A lot of teams won, a lot of them lost, but what’s more important is what the participants took back home from this event. From learning the technicalities of the robot, to mastering it’s control on the arena; from making their own first bot to helping others debug their bots; from trying their best to win the competition, to cheering others to try harder; it was an overall fun and learning experience in its true sense. The event wouldn’t have been possible without the efforts of the Sub Heads and the new members of the Technology Robotix Society.&lt;/p&gt;
+
+&lt;p&gt;Cheers to them and to the participants!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 26 Aug 2018 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/robosoccer2k18/</link>
+        <guid isPermaLink="true">/blog/robosoccer2k18/</guid>
+      </item>
+    
+      <item>
+        <title>KRAIG 101</title>
+        <description>&lt;p&gt;The K.R.A.I.G 101 workshop, organized specially for the first-year students of IIT Kharagpur took place on the 21st of August and as expected, it was met by curious, eager students and robotics enthusiasts alike. 
+For the uninitiated, K.R.A.I.G, The Kharagpur Robotics and Artificial Intelligence Group is comprised of a group of robotics enthusiasts, who together, form the Technical Wing of the Technology Robotix Society. The K.R.A.I.G classes serve to teach students the fundamentals of manual and autonomous robotics. Students with little to no knowledge of robotics are especially welcome, as the classes start from scratch. Such workshops provide the perfect learning environment and a brilliant atmosphere for discussion, with eager learners, curious freshmen as well as students experienced in the world of robotics.&lt;/p&gt;
+
+&lt;p&gt;The first workshop, K.R.A.I.G 101 was taught by the members of the Technology Robotix Society. The goal of this session was to give students an introduction to the world of robotics and to teach a few fundamental concepts required to make a simple robot.
+Fresh from the introductory seminar, the students were curious to learn how to make the robots we see around the world in this age. This workshop was where many first-year students came to take their first step into the world of robotics. We hope that this inital foray will soon develop into an interest and a passion for robotics for all!&lt;/p&gt;
+
+&lt;p&gt;The first concept that was covered was Locomotion, and one of the most important mechanisms to accomplish it: the differential drive mechanism. To explain it briefly, it’s the mechanism in which the movement is based on two separately driven wheels on either side of the robot body. It moves by varying the speeds of the two wheels and hence does not require an additional steering mechanism. Concepts were accompanied with diagrams, video demonstrations and of course, student could ask doubts and questions, to ensure crystal-clear understanding.&lt;/p&gt;
+
+&lt;p&gt;Next, the students learnt about switches and relay circuits. Most of us are familiar with or have a vague idea of what switches are. They’re electrical components that can complete or break an electrical circuit, interrupting the current or diverting it from one conductor to the other. Relays are electrically operated switches. Relays could use electromagnets to mechanically operate the switches, or other operating principles as well.&lt;/p&gt;
+
+&lt;p&gt;Next up were diodes and H-Bridges! Seemingly confusing topics, but students were encouraged to interact with each other to clear their doubts and gain a better understanding of topics (that a lot of them probably learnt that very day!) But to put it in short, a diode is a two terminal electronic component with asymmetric conductance. It has low resistance to current in one direction, and high resistance to current in the other. H-Bridges are electronic circuits that enable voltage to be applied across a load in either direction.&lt;/p&gt;
+
+&lt;p&gt;Students then learnt the different ways in which they could build their robots to effectively control and manoeuvre their robots, and they gained a better insight of the actual circuitry that goes behind the exterior of the fascinating robots we see. In fact, many of the students applied this knowledge to make their own robot controller in less than a week!
+Last but definitely not the least, the Robosoccer Challenge was formally announced, a tournament open to all first-year students to design and make their own soccer-playing robots! Students were given an opportunity to put all the knowledge they gained at the workshop and their creativity to the test in the Challenge held on 26th August (more about that in an upcoming blog post!) This was met with a great deal of enthusiasm and the students were eager to participate in the first event organized by the Technology Robotix Society in the year.
+Following this, 16 new students were inducted into the Technology Robotix Society, in hopes to organize more such interactive events and help develop the robotics culture in Kharagpur even further!&lt;/p&gt;
+
+&lt;p&gt;But that’s not all! K.R.A.I.G 101 is scheduled to be followed by hands-on sessions to aid practical learning for a more integrated approach to learn the concepts involved in robotics. There are similar K.R.A.I.G workshops yet to come and other exciting challenges for everyone to participate in! Classes will be organized to teach the mechanical aspects, basics of electronics and Computer Vision required to build the fascinating robots we see around us. Here’s to having a lot more fun and making our very own bots in the days to come!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 21 Aug 2018 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/kraig101/</link>
+        <guid isPermaLink="true">/blog/kraig101/</guid>
+      </item>
+    
+      <item>
+        <title>Intro Workshop 2018</title>
+        <description>&lt;p&gt;The Kalidas Auditorium was yet again a witness of an overwhelming response of freshers, who flocked to witness the awesomeness of Technology Robotix Society in its introductory seminar. The program kicked off by a spectacular flight of a quadcopter, which left the audience dumbstruck. Often known as the heart and soul of robotics in KGP, TRS has a reputation of injecting the culture of robotics into the veins of students across and beyond the campus. They were informed about the events and workshops organised by the society, with the finale at Kshitij, one of the largest Techno-management fests.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2018/intro_workshop/1.jpg&quot; alt=&quot;1&quot; class=&quot;img-responsive&quot; /&gt;
+&lt;img src=&quot;/img/blog/2018/intro_workshop/2.jpg&quot; alt=&quot;2&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;“Bot demonstrations were really cool. It really increased my enthusiasm for building one on my own”, one of the members of the audience said. The testimony justifies that the bots displayed captivated the minds of the freshers. They witnessed and some even made a bot climb a definite set of stairs. A lane following bot was next, which essentially traverses along the lane of an arena using the concept of SONAR. A mesmerizing gesture controlled followed, and some lucky people got the chance to manoeuvre the bot themselves. Lastly, the freshers were introduced to a bot which can change its ground clearance, hence moving “over and above” the obstacles.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2018/intro_workshop/3.jpg&quot; alt=&quot;3&quot; class=&quot;img-responsive&quot; /&gt;
+&lt;img src=&quot;/img/blog/2018/intro_workshop/4.jpg&quot; alt=&quot;4&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The large attendance in Kalidas surely indicated that the upcoming robotics season is going to be a thrilling one. Technology Robotix Society shall leave no stone unturned to enhance its extravagance.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2018/intro_workshop/5.jpg&quot; alt=&quot;5&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 Aug 2018 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/intro-workshop/</link>
+        <guid isPermaLink="true">/blog/intro-workshop/</guid>
+      </item>
+    
+      <item>
+        <title>Registrations for Robotix 2018</title>
+        <description>&lt;h4 id=&quot;registration-for-robotix-2018-are-now-open&quot;&gt;Registration for ROBOTIX 2018 are now open.&lt;/h4&gt;
+
+&lt;p&gt;For all the event details of Robotix 2018, visit: &lt;a href=&quot;https://2018.robotix.in/event/&quot;&gt;Robotix 2018 - Events&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; All Team members are required to register at the Kshitij website before team formation. One of the
+team members should act as captain and invite all other members to his team from the &lt;em&gt;Invitations&lt;/em&gt; section as
+explained below. The other members should accept the invitation to join the team from their own Kshitij accounts.
+Only the captain can dismantle the entire team while individual members may leave the team anytime. The captain
+is also known as the &lt;em&gt;leader&lt;/em&gt; at some places.&lt;/p&gt;
+
+&lt;h5 id=&quot;for-registrations&quot;&gt;For Registrations:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Visit Kshitij website: &lt;a href=&quot;http://www.ktj.in&quot;&gt;http://www.ktj.in/&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Register on the website by clicking &lt;em&gt;SIGNUP&lt;/em&gt; at the bottom of the home page after entering the site.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2017/regs-2018/1.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fill in all the details. &lt;strong&gt;Note:&lt;/strong&gt; There are two parts of this. You will need to fill in both the parts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2017/regs-2018/2.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2017/regs-2018/3.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now you will need to login to your account using the email and password.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2017/regs-2018/4.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;After logging in, click on &lt;em&gt;EVENTS&lt;/em&gt; at the top.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2017/regs-2018/5.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now click on either of the arrows until you find the option &lt;em&gt;ROBOTICS&lt;/em&gt;. Select the event among STAX, POLES APART and FORTRESS which you want to register for.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2017/regs-2018/6.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Locate the register option on the right. A registration link appears at the centre. Clicking that link completes your registration for that event.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Now you have to form a team. For this select the option &lt;em&gt;MYKTJ&lt;/em&gt; at the homescreen and select the event among the dropdown list.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2017/regs-2018/7.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;After selecting the event, enter the e-mail ids of your team members. You should leave the last option of fourth member empty. Send the invitation by clicking the required button.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: You can only select a teammate after he/she has registered on the KTJ site. You will find the name
+ of the person in the drop box list. You cannot use a find feature here and you will have to do this manually.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2017/regs-2018/8.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now your teammate has to accept the request. Ask your teammate to go to his &lt;em&gt;MYKTJ&lt;/em&gt; page and click on &lt;em&gt;PENDING INVITATIONS&lt;/em&gt; tab.
+ This will appear.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2017/regs-2018/9.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;After the teammate accepts the request, both the &lt;em&gt;leader&lt;/em&gt; ie. the one who registered for the event and the &lt;em&gt;members&lt;/em&gt; can see the team on their respective &lt;em&gt;MYKTJ&lt;/em&gt; page in the &lt;em&gt;MY TEAM MEMBER LIST&lt;/em&gt; tab.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For further queries, you can contact:&lt;/p&gt;
+
+&lt;h5 id=&quot;shivang-agrawal&quot;&gt;Shivang Agrawal&lt;/h5&gt;
+
+&lt;p&gt;Email: &lt;strong&gt;&lt;a href=&quot;mailto:shivang.agrawal@robotix.in&quot;&gt;shivang.agrawal@robotix.in&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ph. no: &lt;strong&gt;+91 9455538734&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 26 Dec 2017 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/registration-for-robotix-2018/</link>
+        <guid isPermaLink="true">/blog/registration-for-robotix-2018/</guid>
+      </item>
+    
+      <item>
+        <title>The Induction Workshop</title>
+        <description>&lt;p&gt;A peek into what their lives are going to be. A tiny taste of the awesome things that await them in this lush green campus, was given to the new-comers in the Induction workshop conducted by IIT Kharagpur, in association with the societies listed under it.&lt;/p&gt;
+
+&lt;p&gt;One such vital part of this workshop was Robotics. A number of enthusiasts tried their hands at it and got to have the firsthand experience of what Team Robotix had to share.&lt;/p&gt;
+
+&lt;p&gt;The four-day workshop took place in two phases. Each phase witnessed a participation of 50 students. The first day of both the phases was an introduction to what the Kharagpur robotics culture holds. A very basic scheme of what you can learn in robotics in kgp. An elementary idea of how you can grow and from where you can start if you wish to pursue it in the future.&lt;/p&gt;
+
+&lt;p&gt;The enthusiasm of the attendees was noteworthy as many of them seemed adamant and interested in following robotics. The first day’s workshop ended on a very practical note, where the freshers and their mobile phones witnessed demonstration of three bots. Namely, the manual bot. A bot capable of climbing stairs with the unique design of its wheels. The mechanical difficulty in making the bot run came obvious to the audience when they tried running it on their own.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2017/induction-ws/IMG_1.jpg&quot; alt=&quot;1&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Secondly, there was the autonomous bot, a bot controlled by the gesture of one’s hand felt like magic for once. The literal view of something dancing on one’s gesture was a delight to watch.&lt;/p&gt;
+
+&lt;p&gt;And lastly, an Image processing bot. Which looked simple enough but with just a camera, an arduino, a computer and a length of wire, bridged a gap which once seemed unfathomable. The gap between virtual and real world. A bot which followed a real object.
+T
+he second day of the workshop was probably the best part for the fresher, where they got to try their hands on soldering irons probably for the first time ever. They were explained the basic circuit which goes into the making of a remote control. And finally handed over some soldering 
+iron and wire to try it out for themselves. The happiness on their faces for trying something new and practical was clearly visible.&lt;/p&gt;
+
+&lt;p&gt;Team Robotix carried out the needful with perfection and punctuality which was appreciated. We hope to carry many such successful workshops throughout the year to help the Robotics culture grows vast and wide throughout the nation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2017/induction-ws/IMG_2.jpg&quot; alt=&quot;2&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 10 Aug 2017 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/the-induction-workshop/</link>
+        <guid isPermaLink="true">/blog/the-induction-workshop/</guid>
+      </item>
+    
+      <item>
+        <title>Robotix 2017</title>
+        <description>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Making a bot is really simple. You just have to understand the problem
+statement, think of a design and then make it alive. And for the
+debugging part, that’s easy too, except for a few million complications.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;When a critical soul questioned me about my motivation to follow
+robotics, I was speechless. Not that I didn’t have anything to say,
+but because I had so much to.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Where do I begin I thought to myself. The rush to learn something new or
+the goodness that fills when that motor gushes for the first time. Not
+to mention the emotions that get welled up when your Bluetooth gives you
+a green signal. And what about the feeling when you want to give up but
+you don’t and when finally you make it work, every sleepless moment
+spent on making that relay click starts feeling blissful.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;-Robotix 2017 participant&lt;/p&gt;
+
+&lt;p&gt;Asia’s largest techno-management fest became an honorable host to such
+emotions. Kshitij 2017 witnessed some of the largest participation
+previously seen. The manual event – Bomb disposal, as expected saw the
+maximum participation among the three events. Also, the autonomous event&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;B.R.I.C.K.S. was a success in every term. Lastly, the IP event -
+Conquest, made the contestants storm their brains out, making their bot
+run the sweetest of all.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The participants, irrespective of who won or who didn’t, definitely had
+one common opinion- they had loads of fun. The debugging and calibration
+session for the bots was admittedly the most sweet and sour experience
+that the participants had all along.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bomb Disposal - A manual event&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2017/fest/1.jpg&quot; alt=&quot;Bomb Disposal&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This event could be explained in a few words - Innovation at its best.
+Though the participants had a tough mechanism to tackle, it was done in
+some marvelous ways. The mechanism was to design a bot that was capable
+of cutting wires and lifting blocks. There were two arenas which were
+occupied the whole time. The event witnessed many moving as well as
+cutting mechanisms which used high speed cutters, solder irons, wire
+clippers and in some cases the most creative use of scissors ever
+witnessed. To sum up, Bomb disposal was a blast.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bricks – A semi autonomous event&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2017/fest/2.jpg&quot; alt=&quot;BRICKS&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;How can a task as trivial as picking and placing things be made
+fun-filled? Just tell them to do it autonomously. Tell them to have a
+wireless control and a few sensors fitted here and there. A few
+mechanical complications and voila! There you have it.&lt;/p&gt;
+
+&lt;p&gt;The participants had to make an autonomous bot capable of distinguishing
+between solid and hollow blocks. It was to be traversed using wireless
+bluetooth module.&lt;/p&gt;
+
+&lt;p&gt;Bricks became a first-hand spectator of the youth’s enthusiasm towards
+autonomous robotics. Students showcased their talents combined with their
+perseverance on a wooden arena.&lt;/p&gt;
+
+&lt;p&gt;People came to know about how hard it is to make and then to debug a bot.
+But the energy of the arena screamed how much fun it was to be a part of
+it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;CONQUEST- The IP event&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2017/fest/3.jpg&quot; alt=&quot;CONQUEST&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The image processing event made us realize how far we have come in
+robotics from where we started. We are almost at the verge of completing
+the bridge between the virtual and the real world. Think about this,
+taking a video feed from an overhead camera and telling the bot its left
+and right after processing the surrounding using that feed. It’s just
+amazing.&lt;/p&gt;
+
+&lt;p&gt;The event saw the participation of around 20 teams and enthusiastically
+so. The bot run wasn’t as simple, but when the bots finally ran, the look
+on the participant’s face was worth cherishing. True happiness.&lt;/p&gt;
+
+&lt;p&gt;The overall story of Robotix 2017 sums up in a few words. Raw that became
+bots, bots that became emotions, emotions that became people and people
+who became Robotix 2017!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 31 Jan 2017 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/robotix-2k17/</link>
+        <guid isPermaLink="true">/blog/robotix-2k17/</guid>
+      </item>
+    
+      <item>
+        <title>Registrations for Robotix 2017</title>
+        <description>&lt;h4 id=&quot;registration-for-robotix-2017-are-now-open&quot;&gt;Registration for ROBOTIX 2017 are now open.&lt;/h4&gt;
+
+&lt;p&gt;For all the event details of Robotix 2017, visit: &lt;a href=&quot;https://2017.robotix.in/event/&quot;&gt;Robotix 2017 - Events&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; All Team members are required to register at the Kshitij website before team formation. One of the 
+team members should act as captain and invite all other members to his team from the &lt;em&gt;Invitations&lt;/em&gt; section as 
+explained below. The other members should accept the invitation to join the team from their own Kshitij accounts. 
+Only the captain can dismantle the entire team while individual members may leave the team anytime. The captain 
+is also known as the &lt;em&gt;leader&lt;/em&gt; at some places.&lt;/p&gt;
+
+&lt;h5 id=&quot;for-registrations&quot;&gt;For Registrations:&lt;/h5&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Visit Kshitij website: &lt;a href=&quot;http://www.ktj.in&quot;&gt;http://www.ktj.in/&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Register on the website by clicking &lt;em&gt;SIGNUP&lt;/em&gt; at the bottom of the home page after entering the site.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2016/regs-2017/1.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fill in all the details. &lt;strong&gt;Note:&lt;/strong&gt; There are two parts of this. You will need to fill in both the parts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2016/regs-2017/2.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2016/regs-2017/3.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now you will be automatically logged in your account.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2016/regs-2017/4.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now click on &lt;em&gt;MYKTJ&lt;/em&gt; at the bottom.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2016/regs-2017/5.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now click on &lt;em&gt;teams&lt;/em&gt;. After doing that this page should be shown.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2016/regs-2017/6.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now click on the &lt;em&gt;Event Registration dropbox&lt;/em&gt;. You select the event (BRICKS, Conquest, Bomb Disposal in 
+ which you want to participate) and then click on register.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2016/regs-2017/7.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now you have to form a team. For this select the drop box with title &lt;em&gt;Select a team-mate&lt;/em&gt; from the drop 
+ box and choose your team mate’s name.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: You can only select a teammate after he/she has registered on the KTJ site. You will find the name 
+ of the person in the drop box list. You cannot use a find feature here and you will have to do this manually&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2016/regs-2017/8.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;After that you have to select a event for which you want to form the team. For that click on the drop box with title 
+ &lt;em&gt;Select an event&lt;/em&gt;. Click on the event which you have already registered before.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2016/regs-2017/9.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now click on &lt;em&gt;Send an invite&lt;/em&gt;. Now sit back and relax.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2016/regs-2017/10.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Now your teammate has to accept the request. Ask you teammate to go to his &lt;em&gt;MYKTJ&lt;/em&gt; page and click on &lt;em&gt;Invitations&lt;/em&gt; tab. 
+ This will appear.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2016/regs-2017/11.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;After the teammate accepts the request, the &lt;em&gt;leader&lt;/em&gt; ie. the one who registered for the event can see this on his &lt;em&gt;MYKTJ&lt;/em&gt; page in the &lt;em&gt;Invitations&lt;/em&gt; tab.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2016/regs-2017/12.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If by chance, at any step, you logged out. Then you can still log back in. To that go to the homepage 
+ &lt;a href=&quot;http://www.ktj.in&quot;&gt;www.ktj.in&lt;/a&gt;. From there click on &lt;em&gt;LOGIN&lt;/em&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2016/regs-2017/13.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fill out your username and password and login!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog/2016/regs-2017/14.png&quot; alt=&quot;&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For further queries, you can contact:&lt;/p&gt;
+
+&lt;h5 id=&quot;sourish-ghosh&quot;&gt;Sourish Ghosh&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;Contact No: 7980623482&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Email Id:&lt;/strong&gt; &lt;a href=&quot;mailto:sourish@robotix.in&quot;&gt;&lt;strong&gt;sourish@robotix.in&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;sreyansh-jain&quot;&gt;Sreyansh Jain&lt;/h5&gt;
+
+&lt;p&gt;&lt;strong&gt;Contact No: 9933958066&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 25 Dec 2016 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/registration-for-robotix-2017/</link>
+        <guid isPermaLink="true">/blog/registration-for-robotix-2017/</guid>
+      </item>
+    
+  </channel>
+</rss>
