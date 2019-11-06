@@ -1,0 +1,263 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"> <meta name="description" content="Technology Robotix Society is an official society under the Technology Students' Gymkhana IIT Kharagpur."> <meta name="keywords" content="robotix, robotics, iit, kgp, team, events, society, technology, tutorial"> <meta name="google-site-verification" content="ZR618hQWwV_OwtWa033492kzvBaQYxBc1ZauYc5oO5A" /> <!-- Social: Twitter --> <meta name="twitter:card" content="summary"> <meta name="twitter:site" content="@robotixiitkgp"> <meta name="twitter:title" content="Brainstorming A.C.R.O.S.S 3 - Grid Navigation"> <meta name="twitter:description" content="Technology Robotix Society is an official society under the Technology Students' Gymkhana IIT Kharagpur."> <meta name="twitter:image:src" content="/img/favicons/favicon-196x196.png"> <!-- Social: Facebook / Open Graph --> <meta property="og:title" content="Brainstorming A.C.R.O.S.S 3 - Grid Navigation" /> <meta property="og:site_name" content="Technology Robotix Society, IIT Kharagpur" /> <meta property="og:type" content="website" /> <meta property="og:image" content="/img/favicons/favicon-196x196.png" /> <meta property="og:description" content="Technology Robotix Society is an official society under the Technology Students' Gymkhana IIT Kharagpur." /> <!-- Social: Google+ --> <link href="https://plus.google.com/102868621563384739622" rel="publisher"> <title>Brainstorming A.C.R.O.S.S 3 - Grid Navigation &bull; Technology Robotix Society, IIT Kharagpur</title> <link rel="shortcut icon" href="/img/favicons/favicon.ico"> <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png"> <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png"> <link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png"> <link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png"> <link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png"> <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png"> <link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png"> <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png"> <link rel="icon" type="image/png" href="/img/favicons/favicon-196x196.png"> <link rel="icon" type="image/png" href="/img/favicons/favicon-160x160.png"> <link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png"> <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png"> <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png"> <meta name="msapplication-TileColor" content="#2b5797"> <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png"> <meta name="msapplication-config" content="/img/favicons/browserconfig.xml"> <meta name="theme-color" content="#2b5797"> <link href="/css/main.css" rel="stylesheet"> <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --> <!-- WARNING: Respond.js doesn't work if you view the page via file:// --> <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]--> </head> <body> <div id="st-container" class="st-container"> <div class="st-pusher"> <div class="st-content"> <!-- Begin Top Section --> <section id="top-section" class="top-section image-section " style=""> <div class="overlay gradient-overlay"></div> <header id="top-header" class="top-header"> <div class="overlay white-solid"></div> <svg id="menu-trigger" class="menu-trigger icn icon-menu visible-xs" viewBox="0 0 32 32"> <use xlink:href="/img/sprites/sprites.min.svg#icon-menu"></use> </svg> <a href="/" id="logo-header" class="logo-header"> <div class="logo"></div> </a> <nav class="st-menu st-effect" id="menu"> <div class="logo-navbar logo visible-xs"></div> <ul> <li> <a class="" href=" https://makerspace.robotix.in/" target="_blank">Makerspace</a> </li> <li> <a class="" href="/FAQs/" >FAQs</a> </li> <li> <a class="" href="/workshops/" >Workshops</a> </li> <li> <a class="" href="/event/" >Events</a> </li> <li> <a class="" href="/blog/" >Blog</a> </li> <li> <a class="" href="/tutorial" >Tutorials</a> </li> <li> <a class="" href="/team/" >Team</a> </li> <li> <a class="" href="/about-us/" >About Us</a> </li> </ul> <ul id="bottom-navlinks" class="bottom-navlinks visible-xs"> <li> <a href="https://contact.robotix.in" target="_blank">Contact Us</a> </li> </ul> </nav> </header> <div class="content-wrapper"> <div class="jumbotron text-left"> <div class="animated hiding" data-animation="fadeInLeft" data-delay="500"> <h1>Brainstorming A.C.R.O.S.S 3 - Grid Navigation</h1> </div> </div> </div> </section> <!-- End Top Section --> <!-- Begin Post--> <section id="post-section" class="post-section"> <div class="content-wrapper text-left"> <div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1"> <div class="col-lg-8 col-md-10 col-xs-12"> <article class="row post"> <div class="post-body"><p><strong>Introduction</strong></p> <p>This tutorial covers the navigation of an autonomous bot on a grid without obstacles. The same code however can be easily modified for a grid with obstacles. An arduino code file is provided at the end.</p> <p><strong>Materials Used</strong></p> <p>Arduino Leonardo Line follower Hardware (Sensors, Motor drivers, Bot Chasis etc.) LCD Display (for Debugging purposes)</p> <p><strong>The Concept</strong></p> <p>From previous articles we know that the position of the bot on a grid is described by x and y coordinates. Grid following on a grid without obstacles is based on the assumption that a robot can reach any point on the grid if it is able to reach any point lying along the x or y axis from the current position. Now, we know that the movement along x or y axis from the current position will correspond to movement in any of the 4 directions (N, S, W, E). The fact that these directions remain fixed with respect to the grid, even when the orientation of the bot changes, is utilized to take the robot from one point to any other.</p> <p><strong>How to Proceed?</strong></p> <p>The building of a grid follower requires a working line follower bot. To detect intersections efficiently we place two additional LED-LDR sensors in addition to the three line following ones. After achieving line following, the bot is made capable of detecting intersections and then turning 90 and 180 degrees at them. Now we move on to the code that will allow the bot to navigate from one point to any other point. For this, firstly a (0, 0) point is fixed on the grid. 4 directions (say N, S, E, W) are fixed with respect to the grid. The code keeps a record of the bots current position as well as its current direction.</p> <p><strong>Functions</strong></p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>void line_follow()
+{
+  int left = ReadSensor(A1, 0, 0);
+  int middle = ReadSensor(A2, 4, 0);
+  int right = ReadSensor(A3, 8, 0);
+  int exleft = ReadSensor(A0, 0, 1);
+  int exright = ReadSensor(A4, 4, 1);
+if(middle &lt; s2 &amp;&amp; left &gt;s1 &amp;&amp; right &gt;s3)
+{
+  lcd.setCursor(13,0);
+  lcd.print("For");
+  forward();
+}
+else if(left &lt; s1 &amp;&amp; right &gt; s3 &amp;&amp; middle &gt; s2)
+{
+  lcd.setCursor(13,0);
+  lcd.print("Lef");
+  turn_left();
+}
+else if(right &lt; s3 &amp;&amp; middle &gt; s2 &amp;&amp; left &gt; s1)
+{
+  lcd.setCursor(13,0);
+  lcd.print("Rig");
+  turn_right();
+}
+else if(exleft &lt; s0)
+{
+  lcd.setCursor(13,0);
+  lcd.print("ELe");
+  turn_left();
+}
+else if(exright &lt; s4)
+{
+  lcd.setCursor(13,0);
+  lcd.print("ELe");
+  turn_right();
+}
+}
+</code></pre></div></div> <p>Before we start making a grid follower, a line follower is required. In the above code 5 LED-LDR sensors are used for this purpose.</p> <p><strong>Detecting intersections and Moving Forward</strong></p> <p>To update its current position, our bot is required to detect grid intersections while moving forward. Intersections refer to intersection of white lines on the A.C.R.O.S.S grid while moving forward refers to moving in the same direction that the bot is currently facing.</p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>void grid_forward(int count)
+{
+  int temp=0;
+  while(1)
+  {
+  int exleft = ReadSensor(A0, 0, 1);
+  int exright = ReadSensor(A4, 4, 1);
+  if(exleft &lt; s0 &amp;&amp; exright &lt; s4)
+    {
+//Intersection detected
+       stopp();
+       delay(1000);
+       temp++; //Increase the value of temp variable which holds the value of number of intersections crossed
+
+       lcd.setCursor(8,1);
+  lcd.print(temp);
+  if(temp==count)
+  {
+//Bot stops on reaching required number of intersections
+     stopp();
+     return;
+  }
+else
+{
+  forward();
+  delay(1000);
+}
+    }
+  line_follow();
+  }
+}
+</code></pre></div></div> <p>The above function moves the bot forward for a certain number of node intersections. The number of intersections are indicated when a call is placed to the function. An intersection is detected when the extreme left and extreme right LDR sensors are both on the line. The bot stops when the value of temp variable becomes equal to count. In all other cases the bot stops for a while at the intersection, increments temp variable and moves forward.</p> <p><strong>Turning at Intersections</strong></p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>void grid_right()
+{
+  forward();//Code reaches here when bot is stopped at an intersection
+  delay(1000);
+  right_90(); //Bot moves a bit forward from the intersection and then turns at 0 radius
+  delay(2000);
+  while(ReadSensor(A0, 0, 1)&gt;=s0)
+  right_90();  //Keep turning till the extreme left sensor is on the line
+  if(dir=='N')
+  dir='E';
+  else if(dir=='E')
+  dir='S';
+  else if(dir=='S')
+  dir='W';
+  else if(dir=='W')
+  dir='N';
+}
+void grid_left()
+{
+  forward();  //Code reaches here when bot is stopped at an intersection
+  delay(1000);
+  left_90();//Bot moves a bit forward from the intersection and then turns at 0 radius
+  delay(2000);
+  while(ReadSensor(A4, 0, 1)&gt;=s4)
+  left_90(); //Keep turning till the extreme right sensor is on the line
+  if(dir=='N')
+  dir='W';
+   else if(dir=='E')
+  dir='N';
+  else if(dir=='S')
+  dir='E';
+  else if(dir=='W')
+  dir='S';}
+
+void uturn()
+{
+  grid_right();
+  right_90();
+  delay(2000);
+  while(ReadSensor(A0, 0, 1)&gt;=s0)
+  right_90();
+  if(dir=='N')
+  dir='E';
+  else if(dir=='E')
+  dir='S';
+  else if(dir=='S')
+  dir='W';
+  else if(dir=='W')
+  dir='N';
+}
+</code></pre></div></div> <p><strong>Declaring and fixing grid constants</strong></p> <p><a href="/img/blog/2013/01/image0051.png"><img src="/img/blog/2013/01/image0051.png" alt="" /></a><a href="/img/blog/2013/01/image007.png"><img src="/img/blog/2013/01/image007.png" alt="" /></a></p> <p>(0, 0) is fixed at lower left corner and directions according to the picture on the right. Thus positive y direction corresponds to N.</p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>int cx=0, cy=0; //The current coordinates of the bot
+int dir = ‘N’ ; //The current direction
+</code></pre></div></div> <p>Please note that the bot has to start always at the designated coordinates and directions declared above</p> <p><strong>Updating The Directions</strong></p> <p>The bots direction changes only on turning. The new direction depends on the direction of the turn and the current direction that the bot is facing. For example in the 90-degree right turn code above:</p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> if(dir=='N')
+  dir='E';
+  else if(dir=='E')
+  dir='S';
+  else if(dir=='S')
+  dir='W';
+  else if(dir=='W')
+  dir='N';
+</code></pre></div></div> <p>This part of the code take the bot from one point to any other point lying along the x or y direction. For example from (0, 1) to (2, 1) that is along the positive x direction or from the (0, 1) to (0, 5) along the positive y direction. Let (dx, dy) correspond to the destination and (cx, cy) correspond to the current position. Now we have 4 cases:</p> <ul> <li><strong>Positive X direction</strong> - Destination point has an x-coordinate that is of a higher value than the current x-coordinate</li> <li><strong>Negative X direction</strong></li> <li><strong>Positive Y direction</strong></li> <li><strong>Negative Y direction</strong></li> </ul> <p>Let us look at the first case in detail. Now the bot is supposed to move in the positive x-direction from its current position. Now depending on which direction the bot is facing currently, we have 4 more cases:</p> <ul> <li><strong>Facing North:</strong> Thus the bot should take a right turn from current position and move the required number of steps</li> <li><strong>Facing South:</strong> The bot should take a left turn from the current direction and move the required steps</li> <li><strong>Facing West:</strong> The bot should take a u-turn and move the required number of steps</li> <li><strong>Facing East:</strong> The bot should simply move forward since it is already facing the positive x-direction</li> </ul> <p>Similarly we can form the other 4 cases. This has been done below:</p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>void move_robot(int dx, int dy)
+{
+  if(dx-cx&gt;0 &amp;&amp; dy-cy==0)
+  { //Move along positive x-axis
+    if(dir=='N')
+    {
+      grid_right();
+      grid_forward(dx-cx);
+       }
+    else if(dir=='E')
+    {
+      grid_forward(dx-cx);
+    }
+    else if(dir=='S')
+    {
+      grid_left();
+      grid_forward(dx-cx);
+    }
+    else if(dir=='W')
+    {
+      uturn();
+      grid_forward(dx-cx);
+    }
+    cx+=dx-cx;;  
+    lcd.setCursor(10,1);
+    lcd.print(dir);
+    lcd.setCursor(12,1);
+    lcd.print(cx); 
+    lcd.setCursor(14,1);
+    lcd.print(cy); 
+
+  }
+
+
+  if(dx-cx==0 &amp;&amp; dy-cy&gt;0)
+  {//Move along positive y-axis
+
+    if(dir=='N')
+    {
+      grid_forward(dy-cy);
+    }
+    else if(dir=='E')
+    {
+      grid_left();
+      grid_forward(dy-cy);
+    }
+    else if(dir=='W')
+    {
+      grid_right();
+      grid_forward(dy-cy);
+    }
+    else if(dir=='S')
+    {
+      uturn();
+      grid_forward(dy-cy);
+    }
+    cy+=dy-cy;
+    lcd.setCursor(10,1);
+    lcd.print(dir); 
+    lcd.setCursor(12,1);
+    lcd.print(cx); 
+    lcd.setCursor(14,1);
+    lcd.print(cy); 
+
+  }
+  if(dx-cx&lt;0 &amp;&amp; dy-cy==0)
+  {//Move along negative x-axis
+
+    if(dir=='N')
+    {
+      grid_left();
+      grid_forward(cx-dx);
+       }
+    else if(dir=='S')
+    {
+      grid_right();
+      grid_forward(cx-dx);
+    }
+    else if(dir=='W')
+    {
+      grid_forward(cx-dx);
+    }
+    else if(dir=='E')
+    {
+      uturn();
+      grid_forward(cx-dx);
+    }
+    cx-=cx-dx;
+    lcd.setCursor(10,1);
+    lcd.print(dir); 
+    lcd.setCursor(12,1);
+    lcd.print(cx); 
+    lcd.setCursor(14,1);
+    lcd.print(cy); 
+
+  }
+  if(dx-cx==0 &amp;&amp; dy-cy&lt;0)
+  {//Move along negative y-axis
+
+    if(dir=='W')
+    {
+      grid_left();
+      grid_forward(cy-dy);
+       }
+    else if(dir=='E')
+    {
+      grid_right();
+      grid_forward(cy-dy);
+    }
+    else if(dir=='S')
+    {
+      grid_forward(cy-dy);
+    }
+    else if(dir=='N')
+    {
+      uturn();
+      grid_forward(cy-dy);
+    }
+   cy-=cy-dy;
+  lcd.setCursor(10,1);
+  lcd.print(dir); 
+  lcd.setCursor(12,1);
+  lcd.print(cx); 
+  lcd.setCursor(14,1);
+  lcd.print(cy); 
+
+  }
+</code></pre></div></div> <p><strong>Moving to a General Point</strong></p> <p>Now that we can move along x and y axis, moving diagonally to any point on the grid is possible. For this we simply move the required number of steps in the x direction first then move the required steps in the y direction. It can be vice-versa also.</p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>void move_general(int gx, int gy)
+{
+  move_robot(gx, cy);
+  move_robot(gx,gy);
+  return;
+}
+</code></pre></div></div> <p><strong>Looking Ahead</strong></p> <p>Since the recursive backtracker algorithm requires the bot to move one step at a time and that too along the axis, we can easily implement it using the above code and an additional obstacle sensor. The only change would be to check if the node in front is free using the obstacle sensor, before the bot tries to move to it. For the Arduino code file, click <a href="/img/blog/2013/01/sketch_jan05a.ino_.zip">sketch_jan05a.ino</a> For doubts, suggestions and feedback send a mail to aditya@robotix.in</p> </div> <ul class="pager col-lg-12"> <li class="previous btn-lg"><a href="/blog/bat-robot-sheds-light-on-flapping-flight/" title="Bat-Robot Sheds Light on Flapping Flight"><span aria-hidden="true">&larr;</span> Bat-Robot Sh...</a></li> <li class="next btn-lg"><a href="/blog/diy-build-your-own-overhaul-bot/" title="DIY: Build your own Overhaul Bot">DIY: Build y... <span aria-hidden="true">&rarr;</span></a></li> </ul> </article> </div> </div> </div> </section> <!-- End Post --> <!-- Begin Footer --> <footer id="footer" class="footer"> <div class="row"> <div class="logo logo-footer pull-right"></div> </div> <div class="row"> <div class="col-md-4 col-xs-6"> <h5>Links</h5> <ul> <li><a href="https://drive.google.com/open?id=1jNJHFE1QjGOHFwhhzn6e774odGv-6eFQ" target="_blank">Robotix App</a></li> <li><a href="https://robotix.in/event/" target="_blank">Events</a></li> <li><a href="https://robotix.in/tutorial/" target="_blank">Tutorials</a></li> </ul> </div> <div class="col-md-4 col-xs-6"> <h5>Contacts</h5> <ul> <li><a href="https://contact.robotix.in" target="_blank">Contact Us</a></li> </ul> </div> <div class="col-md-4 col-xs-6"> <h5>Archives</h5> <ul> <li><a href="https://2018.robotix.in/" target="_blank">Robotix 2018</a></li> <li><a href="https://2017.robotix.in/" target="_blank">Robotix 2017</a></li> <li><a href="https://2016.robotix.in/" target="_blank">Robotix 2016</a></li> </ul> </div> </div> <div class="row"> <div class="col-md-6 col-xs-12"> <ul class="social-links"> <li> <a href="https://plus.google.com/102868621563384739622/" target="_blank"> <svg class="icn icon-google-plus" viewBox="0 0 30 32"> <use xlink:href="/img/sprites/sprites.min.svg#icon-google-plus"></use> </svg> </a> </li> <li> <a href="https://twitter.com/RobotixIITKgp" target="_blank"> <svg class="icn icon-twitter" viewBox="0 0 30 32"> <use xlink:href="/img/sprites/sprites.min.svg#icon-twitter"></use> </svg> </a> </li> <li> <a href="https://facebook.com/robotixiitkgp" target="_blank"> <svg class="icn icon-facebook" viewBox="0 0 30 32"> <use xlink:href="/img/sprites/sprites.min.svg#icon-facebook"></use> </svg> </a> </li> <li> <a href="https://www.youtube.com/robotixiitkgp" target="_blank"> <svg class="icn icon-youtube" viewBox="0 0 30 32"> <use xlink:href="/img/sprites/sprites.min.svg#icon-youtube"></use> </svg> </a> </li> <li> <a href="/feed.xml" target="_blank"> <svg class="icn icon-rss" viewBox="0 0 30 32"> <use xlink:href="/img/sprites/sprites.min.svg#icon-rss"></use> </svg> </a> </li> </ul> </div> </div> <div class="row"> <!-- Please don't delete this line--> <div class="col-md-6"> <p class="copyright"> &copy; 2018 Technology Robotix Society, IIT Kharagpur </p> </div> </div> </footer> <!-- End Footer --> </div> </div> </div> <!-- Begin Floating Action button--> <ul class="fab"> <li> <input type="text" class="search input-sm form-control" placeholder="Search the site..."> <button class="btn btn-danger waves-circle waves-effect waves-light waves-float rotate"> <h4 class="fab-text media-middle"><b>+</b></h4> </button> </li> </ul> <script> window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js"><\/script>') </script> <script> document.write('<script src="/js/bootstrap.min.js"><\/script>') </script> <script src="/js/default.min.js"></script> <script>Waves.displayEffect();</script> <script src="/js/scripts.min.js"></script> <script> (function(){ var handle = '@robotixiitkgp'; var a = document.createElement('script'); var m = document.getElementsByTagName('script')[0]; a.async = 1; a.src = 'https://nectar.ninja/api/v1/' + handle.slice(1); m.parentNode.insertBefore(a, m); })(); </script> <script> (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){ (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t); e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e); })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st'); _st('install','a_iioDrTs6zXmqH8x5Yr','2.0.0'); </script> <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-83617238-1', 'auto'); ga('send', 'pageview'); </script> </body> </html>

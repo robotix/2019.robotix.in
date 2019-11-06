@@ -1,0 +1,100 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="utf-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"> <meta name="description" content="Technology Robotix Society is an official society under the Technology Students' Gymkhana IIT Kharagpur."> <meta name="keywords" content="robotix, robotics, iit, kgp, team, events, society, technology, tutorial"> <meta name="google-site-verification" content="ZR618hQWwV_OwtWa033492kzvBaQYxBc1ZauYc5oO5A" /> <!-- Social: Twitter --> <meta name="twitter:card" content="summary"> <meta name="twitter:site" content="@robotixiitkgp"> <meta name="twitter:title" content="Brainstorming A.C.R.O.S.S 2 – Shortest Path Algorithm "> <meta name="twitter:description" content="Technology Robotix Society is an official society under the Technology Students' Gymkhana IIT Kharagpur."> <meta name="twitter:image:src" content="/img/favicons/favicon-196x196.png"> <!-- Social: Facebook / Open Graph --> <meta property="og:title" content="Brainstorming A.C.R.O.S.S 2 – Shortest Path Algorithm " /> <meta property="og:site_name" content="Technology Robotix Society, IIT Kharagpur" /> <meta property="og:type" content="website" /> <meta property="og:image" content="/img/favicons/favicon-196x196.png" /> <meta property="og:description" content="Technology Robotix Society is an official society under the Technology Students' Gymkhana IIT Kharagpur." /> <!-- Social: Google+ --> <link href="https://plus.google.com/102868621563384739622" rel="publisher"> <title>Brainstorming A.C.R.O.S.S 2 – Shortest Path Algorithm &bull; Technology Robotix Society, IIT Kharagpur</title> <link rel="shortcut icon" href="/img/favicons/favicon.ico"> <link rel="apple-touch-icon" sizes="152x152" href="/img/favicons/apple-touch-icon-152x152.png"> <link rel="apple-touch-icon" sizes="144x144" href="/img/favicons/apple-touch-icon-144x144.png"> <link rel="apple-touch-icon" sizes="120x120" href="/img/favicons/apple-touch-icon-120x120.png"> <link rel="apple-touch-icon" sizes="114x114" href="/img/favicons/apple-touch-icon-114x114.png"> <link rel="apple-touch-icon" sizes="76x76" href="/img/favicons/apple-touch-icon-76x76.png"> <link rel="apple-touch-icon" sizes="72x72" href="/img/favicons/apple-touch-icon-72x72.png"> <link rel="apple-touch-icon" sizes="60x60" href="/img/favicons/apple-touch-icon-60x60.png"> <link rel="apple-touch-icon" sizes="57x57" href="/img/favicons/apple-touch-icon-57x57.png"> <link rel="icon" type="image/png" href="/img/favicons/favicon-196x196.png"> <link rel="icon" type="image/png" href="/img/favicons/favicon-160x160.png"> <link rel="icon" type="image/png" href="/img/favicons/favicon-96x96.png"> <link rel="icon" type="image/png" href="/img/favicons/favicon-32x32.png"> <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png"> <meta name="msapplication-TileColor" content="#2b5797"> <meta name="msapplication-TileImage" content="/img/favicons/mstile-144x144.png"> <meta name="msapplication-config" content="/img/favicons/browserconfig.xml"> <meta name="theme-color" content="#2b5797"> <link href="/css/main.css" rel="stylesheet"> <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries --> <!-- WARNING: Respond.js doesn't work if you view the page via file:// --> <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]--> </head> <body> <div id="st-container" class="st-container"> <div class="st-pusher"> <div class="st-content"> <!-- Begin Top Section --> <section id="top-section" class="top-section image-section " style=""> <div class="overlay gradient-overlay"></div> <header id="top-header" class="top-header"> <div class="overlay white-solid"></div> <svg id="menu-trigger" class="menu-trigger icn icon-menu visible-xs" viewBox="0 0 32 32"> <use xlink:href="/img/sprites/sprites.min.svg#icon-menu"></use> </svg> <a href="/" id="logo-header" class="logo-header"> <div class="logo"></div> </a> <nav class="st-menu st-effect" id="menu"> <div class="logo-navbar logo visible-xs"></div> <ul> <li> <a class="" href=" https://makerspace.robotix.in/" target="_blank">Makerspace</a> </li> <li> <a class="" href="/FAQs/" >FAQs</a> </li> <li> <a class="" href="/workshops/" >Workshops</a> </li> <li> <a class="" href="/event/" >Events</a> </li> <li> <a class="" href="/blog/" >Blog</a> </li> <li> <a class="" href="/tutorial" >Tutorials</a> </li> <li> <a class="" href="/team/" >Team</a> </li> <li> <a class="" href="/about-us/" >About Us</a> </li> </ul> <ul id="bottom-navlinks" class="bottom-navlinks visible-xs"> <li> <a href="https://contact.robotix.in" target="_blank">Contact Us</a> </li> </ul> </nav> </header> <div class="content-wrapper"> <div class="jumbotron text-left"> <div class="animated hiding" data-animation="fadeInLeft" data-delay="500"> <h1>Brainstorming A.C.R.O.S.S 2 – Shortest Path Algorithm </h1> </div> </div> </div> </section> <!-- End Top Section --> <!-- Begin Post--> <section id="post-section" class="post-section"> <div class="content-wrapper text-left"> <div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1"> <div class="col-lg-8 col-md-10 col-xs-12"> <article class="row post"> <div class="post-body"><p><strong>Grid Mapping:</strong></p> <p>The recursive backtracker algorithm we discussed in the previous article can be easily improvised and implemented for grid mapping. This can be understood by understanding that the algorithm is essentially a search algorithm designed to locate the destination point anywhere on a grid with obstacles and thus it will check every point on the grid. So if the bot is given only the starting point, it will go to all points on the grid and return back to the start and when that happens we can program it to stop. Now we know if we have stored all the points that the bot has visited, these will indicate open positions on the grid and the remaining points will become the points containing obstacles (in this case platforms that provide the path for the upper bot).</p> <p><strong>Shortest Path Algorithm:</strong> There are quite a few algorithms that can be used to find the shortest paths in a maze or a grid. The common thing among them all is that a map of the grid is required beforehand. One such popular algorithm is the Dijkstra’s Algorithm. The algorithm basically finds the shortest number of steps between each node of the grid and the starting point.</p> <p><strong>Pseudo-Code</strong> (<strong>in C#):</strong></p> <p>The following function runs several passes through the given map and stores the shortest distance of each node from the starting point.</p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>void Pathfind(starting point)
+{
+
+    int heroX = startingPoint.X;
+    int heroY = startingPoint.Y;
+    if (heroX == -1 || heroY == -1)
+    {
+ return;
+    }
+    // Hero starts at distance of 0.
+    _squares[heroX, heroY].DistanceSteps = 0;
+
+    while (true)
+    {
+ bool madeProgress = false;
+
+ // Look at each node on the grid. This loop is executed more than once
+ foreach (Point mainPoint in Squares())
+ {
+    int x = mainPoint.X;
+    int y = mainPoint.Y;
+
+    // If the square is open, look through valid moves given
+    // the coordinates of that square.
+    if (SquareOpen(x, y))
+    {
+ int passHere = _squares[x, y].DistanceSteps; //Number of steps from the starting point to this point
+
+ foreach (Point movePoint in ValidMoves(x, y))
+ {
+//All points that can be moved to from the current point are checked
+    int newX = movePoint.X;
+    int newY = movePoint.Y;
+    int newPass = passHere + 1;   //Surrounding points are one more than the distance of the current point from the starting point
+
+    if (_squares[newX, newY].DistanceSteps &gt; newPass)
+    {
+//Change the distance steps value only if the new distance is less than distance already stored
+ _squares[newX, newY].DistanceSteps = newPass;
+ madeProgress = true;
+    }
+ }
+    }
+ }
+ if (!madeProgress)
+ {
+    break;
+ }
+    }
+}
+</code></pre></div></div> <p><img src="/img/blog/2013/01/image005.png" alt="" /></p> <p>Let us assume that the code is at a point (0, 4) using this function. Now it is required to check all the four directions. This point is at 3 steps away from the starting point so now (0, 3) (1, 4) and (0, 5) will be 4 steps away from the starting point. This will be stored in the corresponding distance steps variables of the points Note that the ending point is not required anywhere in this function as the code finds the least number of steps required to reach any node on the grid from the designated starting point. The above function continuously scans the grid until all squares have been marked with the lowest distances from the starting point. When that happens madeProgress variable remains false and the program exits from the loop.</p> <p>**Runs of the Pathfinder loop through the map look something like this : **</p> <p>[caption id=”attachment_674” align=”alignleft” width=”203” caption=”First pass through the map”]<a href="/img/blog/2013/01/ACROSS-Grid-1.png"><img src="/img/blog/2013/01/ACROSS-Grid-1.png" alt="" /></a>[/caption]</p> <p>[caption id=”attachment_672” align=”alignleft” width=”203” caption=”Second Pass”]<a href="/img/blog/2013/01/ACROSS-Grid-2.png"><img src="/img/blog/2013/01/ACROSS-Grid-2.png" alt="" /></a>[/caption]</p> <p>[caption id=”attachment_673” align=”alignleft” width=”203” caption=”Third Pass”]<a href="/img/blog/2013/01/ACROSS-Grid-3.png"><img src="/img/blog/2013/01/ACROSS-Grid-3.png" alt="" /></a>[/caption]</p> <p><strong>Marking the path from start to finish requires another function :</strong></p> <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>private void HighlightPath(ending point)
+{
+
+    int pointX = endingPoint.X;
+    int pointY = endingPoint.Y;
+    if (pointX == -1 &amp;&amp; pointY == -1)
+    {
+ return;
+    }
+
+    while (true)
+    {
+ // Look through each direction and find the square
+ // with the lowest number of steps marked.
+ Point lowestPoint;
+ int lowest = 100; //A default value to compare distances with
+
+ foreach (Point movePoint in ValidMoves(pointX, pointY))
+ {
+//Find the surrounding square with least value of distance steps
+    int count = _squares[movePoint.X, movePoint.Y].DistanceSteps;
+    if (count &lt; lowest)
+    {
+ lowest = count;
+ lowestPoint.X = movePoint.X;
+ lowestPoint.Y = movePoint.Y;
+    }
+ }
+ if (lowest != 100)
+ {
+    // Mark the square as part of the path if it is the lowest
+    // number. Set the current position as the square with
+    // that number of steps.
+    _squares[lowestPoint.X, lowestPoint.Y].IsPath = true;
+    pointX = lowestPoint.X;
+    pointY = lowestPoint.Y;
+ }
+ else
+ {
+    break;
+ }
+
+ if (_squares[pointX, pointY].ContentCode == SquareContent.Hero)
+ {
+    // We went from monster to hero, so we're finished.
+    break;
+ }
+    }
+}
+</code></pre></div></div> <p>Now this function marks the shortest path, starting from the ending point, it locates those surrounding nodes which require the least number of steps to reach from the starting point. The loop ends when the code reaches the square which contains the starting point.</p> <p>**Resources: **This tutorial has been compiled using the following resources: <a href="http://www.dotnetperls.com/pathfinding">http://www.dotnetperls.com/pathfinding</a></p> <p>In the link you can find a software written in C# that demonstrates the algorithm as well. You can also go through articles and videos on the Internet regarding Dijkstra’s Algorithm.</p> </div> <ul class="pager col-lg-12"> <li class="previous btn-lg"><a href="/blog/diy-build-your-own-overhaul-bot/" title="DIY: Build your own Overhaul Bot"><span aria-hidden="true">&larr;</span> DIY: Build y...</a></li> <li class="next btn-lg"><a href="/blog/mechanical-design-submission-24/" title="Mechanical Design Submission-24">Mechanical D... <span aria-hidden="true">&rarr;</span></a></li> </ul> </article> </div> </div> </div> </section> <!-- End Post --> <!-- Begin Footer --> <footer id="footer" class="footer"> <div class="row"> <div class="logo logo-footer pull-right"></div> </div> <div class="row"> <div class="col-md-4 col-xs-6"> <h5>Links</h5> <ul> <li><a href="https://drive.google.com/open?id=1jNJHFE1QjGOHFwhhzn6e774odGv-6eFQ" target="_blank">Robotix App</a></li> <li><a href="https://robotix.in/event/" target="_blank">Events</a></li> <li><a href="https://robotix.in/tutorial/" target="_blank">Tutorials</a></li> </ul> </div> <div class="col-md-4 col-xs-6"> <h5>Contacts</h5> <ul> <li><a href="https://contact.robotix.in" target="_blank">Contact Us</a></li> </ul> </div> <div class="col-md-4 col-xs-6"> <h5>Archives</h5> <ul> <li><a href="https://2018.robotix.in/" target="_blank">Robotix 2018</a></li> <li><a href="https://2017.robotix.in/" target="_blank">Robotix 2017</a></li> <li><a href="https://2016.robotix.in/" target="_blank">Robotix 2016</a></li> </ul> </div> </div> <div class="row"> <div class="col-md-6 col-xs-12"> <ul class="social-links"> <li> <a href="https://plus.google.com/102868621563384739622/" target="_blank"> <svg class="icn icon-google-plus" viewBox="0 0 30 32"> <use xlink:href="/img/sprites/sprites.min.svg#icon-google-plus"></use> </svg> </a> </li> <li> <a href="https://twitter.com/RobotixIITKgp" target="_blank"> <svg class="icn icon-twitter" viewBox="0 0 30 32"> <use xlink:href="/img/sprites/sprites.min.svg#icon-twitter"></use> </svg> </a> </li> <li> <a href="https://facebook.com/robotixiitkgp" target="_blank"> <svg class="icn icon-facebook" viewBox="0 0 30 32"> <use xlink:href="/img/sprites/sprites.min.svg#icon-facebook"></use> </svg> </a> </li> <li> <a href="https://www.youtube.com/robotixiitkgp" target="_blank"> <svg class="icn icon-youtube" viewBox="0 0 30 32"> <use xlink:href="/img/sprites/sprites.min.svg#icon-youtube"></use> </svg> </a> </li> <li> <a href="/feed.xml" target="_blank"> <svg class="icn icon-rss" viewBox="0 0 30 32"> <use xlink:href="/img/sprites/sprites.min.svg#icon-rss"></use> </svg> </a> </li> </ul> </div> </div> <div class="row"> <!-- Please don't delete this line--> <div class="col-md-6"> <p class="copyright"> &copy; 2018 Technology Robotix Society, IIT Kharagpur </p> </div> </div> </footer> <!-- End Footer --> </div> </div> </div> <!-- Begin Floating Action button--> <ul class="fab"> <li> <input type="text" class="search input-sm form-control" placeholder="Search the site..."> <button class="btn btn-danger waves-circle waves-effect waves-light waves-float rotate"> <h4 class="fab-text media-middle"><b>+</b></h4> </button> </li> </ul> <script> window.jQuery || document.write('<script src="/js/jquery-2.1.1.min.js"><\/script>') </script> <script> document.write('<script src="/js/bootstrap.min.js"><\/script>') </script> <script src="/js/default.min.js"></script> <script>Waves.displayEffect();</script> <script src="/js/scripts.min.js"></script> <script> (function(){ var handle = '@robotixiitkgp'; var a = document.createElement('script'); var m = document.getElementsByTagName('script')[0]; a.async = 1; a.src = 'https://nectar.ninja/api/v1/' + handle.slice(1); m.parentNode.insertBefore(a, m); })(); </script> <script> (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){ (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t); e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e); })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st'); _st('install','a_iioDrTs6zXmqH8x5Yr','2.0.0'); </script> <script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-83617238-1', 'auto'); ga('send', 'pageview'); </script> </body> </html>
